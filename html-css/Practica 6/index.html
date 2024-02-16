@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 6</title>
+
+    <style>
+
+        .menu{
+        
+        background-color: #000;
+        
+        display: flex; 
+        flex-wrap: wrap;
+        
+        } 
+
+        header{
+            background-color: #1DFEA4;
+            padding: 20px;
+        text-align: center;
+        border: 5px solid brown;
+
+        }
+        
+        .opcion{
+        
+        font-family: Arial, Helvetica, sans-serif;
+        
+        background-color: #efefef;
+        border: 1px solid #ccc;
+        text-align: center;
+        padding: 20px;
+        transition: 0.5s;
+        margin:10px;
+        flex-grow: 1;
+        }
+
+        .opcion:hover {
+        
+        background-color: cadetblue;
+        }
+
+        #Extranjero{
+            flex-grow: 2;
+
+        }
+        </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cuidades del mundo</h1>
+        <h2>Lugares que me gustaria visitar</h2>
+   </header>
+
+
+    <div class="menu">
+    <div class="opcion">
+        <a href="guadalajara.html">
+            Guadalajara   
+           </a>
+    
+    </div>
+    <div class="opcion" id="Extranjero">
+        <a href="madrid.html">
+            Madrid   
+           </a> 
+    </div>
+    <div class="opcion" id="Extranjero">
+        <a href="california.html">
+            California   
+            </a>
+    </div>
+    <div class="opcion">
+        <a href="tijuana.html">
+            Tijuana
+           </a>
+    </div>
+    </div>
+
+</body>
+</html>

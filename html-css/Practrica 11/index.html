@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        /* para desktop */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: orange;
+            color: black;
+            font-size: 35px;
+           
+        }
+ 
+        /* para tablets */
+        @media screen and ( max-width:960px){
+            body {
+                background-color: blue;
+                color: white;
+            }
+ 
+            p {
+                font-size: 26px;
+            }
+        }
+        /* para moviles */
+        @media screen and ( max-width:600px){
+            body {
+                background-color: rgb(104, 104, 2);
+                color: rgb(145, 21, 68);
+            }
+ 
+            p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Cambia el tamaño de la ventana del
+        navegador y verás el cambio en el navegador
+    </p>
+</body>
+</html>

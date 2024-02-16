@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibe" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 7</title>
+
+    <style>
+
+        body{
+     background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,51,71,1) 0%, rgba(0,212,255,1) 100%);
+    }
+    
+    #cuadro {
+    background-color: red;
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin: 0 auto;
+    box-shadow: -20px 14px 19px 0px rgba(0,0,0,0.68);
+    -webkit-box-shadow: -20px 14px 19px 0px rgba(0,0,0,0.68);
+    -moz-box-shadow: -20px 14px 19px 0px rgba(0,0,0,0.68);
+    border-radius: 32px 81px 33px 53px;
+    }
+    
+    
+    h1{
+        text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+        text-align: center;
+    }
+    
+       #cuadro2 {
+        background-color: blue;
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+        opacity: 0.4;
+        box-shadow: -20px 14px 19px 0px rgba(0,0,0,0.68);
+        -webkit-box-shadow: -20px 14px 19px 0px rgba(0,0,0,0.68);
+        -moz-box-shadow: -20px 14px 19px 0px rgba(0,0,0,0.68);
+        border-radius: 32px 81px 33px 53px;
+    
+    
+       }
+
+       #cuadro3{
+        background-color: green;
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+        opacity: 0.4;
+        filter: grayscale(50%);
+        box-shadow: -20px 14px 19px 0px rgba(0,0,0,0.68);
+        -webkit-box-shadow: -20px 14px 19px 0px rgba(0,0,0,0.68);
+        -moz-box-shadow: -20px 14px 19px 0px rgba(0,0,0,0.68);
+        border-radius: 100px 0px 0px 100px;
+        animation: cuadro3 3s ease 1s 3 normal forwards;
+        
+        @keyframes  #cuadro3 {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+       }
+    
+       #rock {
+    
+        filter: blur(3px);
+        filter: contrast(111%);
+        filter: sepia(66%); 
+        filter: brightness(74%);
+        filter: hue-rotate(90deg);
+        filter: grayscale(50%);
+        display: block;
+        margin: 250px;
+        
+        
+        animation: rock 3s ease 0s 1 reverse forwards;
+        @keyframes rock {
+	0% {
+		background-position: center bottom;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: center bottom;
+		background-size: 150%;
+	}
+}
+       }
+    
+       h3{
+
+        overflow: auto;
+        outline: 10px groove #ff0000;
+        outline-offset: 1px;
+       }
+
+       audio{
+        
+        display: block;
+        margin: 30px auto;
+
+       }
+    </style>
+</head>
+
+
+<body>
+    
+    
+    <div id="cuadro"> </div>
+    <h1>Esto es una Prueba</h1>
+    <h3> Este es un texto para probar esta nueva funcion que descubri Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, adipisci nulla voluptatum nesciunt ex fugiat veritatis temporibus nam, quaerat nostrum at quidem suscipit neque blanditiis consequatur asperiores, hic voluptates! Numquam?</h3>
+    <div id="cuadro2"></div>
+    <img id="rock" width="60%"  src="https://indie-zone.it/wp-content/uploads/png_20221115_234110_0000.png" alt="Arctic Monkeys">
+    <br>
+         <audio controls> 
+             <source src="Fluorescent Adolescent.mp3" type="audio/mp3">
+         </audio> 
+    <div id="cuadro3"></div>
+</body>
+
+</html>

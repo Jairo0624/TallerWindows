@@ -1,0 +1,55 @@
+body{
+    font-family:'Open Sans', sans-serif ;
+    display:flex;
+    flex-wrap: wrap;
+}
+header{
+   background-color: orange;
+   padding: 20px;
+   text-align: center;
+   border-left: 100px;
+   border-right: 100px;
+   
+
+}
+section{
+   background-color: black;
+   color:white;
+   
+    
+   
+
+}
+
+ul{
+    margin-right: 40px;
+   }
+
+a{
+   color: black;
+   border: 2px solid #ccc;
+   background-color: aliceblue;
+   text-align: center;
+   padding: 12px;
+   flex-grow: 1;
+   margin: 12px;
+   opacity: 0.9;
+}
+
+a:hover{
+font-size: 20px;
+background-color: #598DFE;
+transition: 0.3s;
+}
+
+li{
+    
+    list-style: none;
+    padding: 15px;
+    display: inline-block; 
+    
+}
+
+button{
+    background-color: green;
+}

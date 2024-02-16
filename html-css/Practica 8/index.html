@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 8</title>
+
+    <style>
+        body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            width: 25%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+ 
+        li a {
+            display: block;
+            color: #000;
+            padding: 25px 25px;
+            text-decoration: none;
+        }
+ 
+        li a.active {
+            background-color: green;
+            color: white;
+        }
+ 
+        li a:hover:not(active){
+            background-color: #555;
+            color: white;
+        }
+ 
+        #home {
+            
+            margin-left: 25%;
+            height: 1000px;
+            background-color: aquamarine;
+            padding: 25px;
+            background: url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            
+            
+        }
+ 
+        #news {
+            margin-left: 25%;
+            height: 1000px;
+            background-color: #FF9462;
+            padding: 25px;
+            text-align: justify;
+        }
+ 
+        #contact {
+            margin-left: 25%;
+            height: 1000px;
+            background-color: blueviolet;
+            padding: 25px;
+        }
+ 
+        #about {
+            margin-left: 25%;
+            height: 1000px;
+            background-color: #3CFFE4;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#home">
+                    Inicio
+                </a>
+            </li>
+            <li>
+                <a class="active" href="#news">
+                    Noticias
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    Contacto
+                </a>
+            </li>
+            <li>
+                <a href="#about">
+                    Acerca de
+                </a>
+            </li>
+        </ul>
+    </nav>
+        
+        <div id="home">
+            <h2>INICIO</h2>
+            <h3>SUBTITULO</h3>
+            <p> En esta seccion se vera quienes somos, lo que mejor hacemos como expertos en software, y todo lo relacionado con noticias del software</p>
+        </div>
+
+        <div id="news">
+            <h2>NOTICIAS</h2>
+            <h3>OPEN AI PUEDE SABER SI UNA IMAGEN FUE GENERADA POR IA</h3>
+            <p>Con la reciente popularidad de las imágenes generadas por IA y de su gran realismo en estas, es que en ocasiones no se puede distinguir si la imagen es real o si fue hecha con IA. Aunque a menudo es algo sin importancia, es esencial saber distinguir cuando se trata de "deepfakes" o el uso engañoso de imágenes creadas por inteligencia artificial.
+                </p>
+            <p>Es por eso, que la empresa de Open AI, dueña de chat GPT, ha estado trabajando en un sistema que permite reconocer si la imagen fue generada por una IA o no. </p>
+            <p>La empresa ha dicho que esta nueva herramienta es capaz de identificar el 99% de las imágenes generadas por Dall-E 3, una herramienta que usa el generador de imágenes de Bing.</p>
+            <p> Y también que, con el tiempo, estas herramientas de generador de imágenes serán más avanzadas y será más complicado saber si la imagen es real o no, por lo que los identificadores de imágenes IA también tendrán que ser mas desarrollados. </p>
+            <p>Estoy de acuerdo en que se creen este tipo de herramientas ya que se puede generar algo de confusión con una imagen artificial que parece real, y mas si esta imagen pudiera generar algún malentendido o polémica entre las personas, situaciones o cosas que en realidad no pasaron. Así que, con esta herramienta, estos problemas se resolverían rápidamente.</p>
+        </div>
+
+        <div id="contact">
+            <h2>CONTACTO</h2>
+            <h3>SUBTITULO</h3>
+            <p>Puede buscar nuestro contacto como Grupo MGA
+            </p>
+        </div>
+     
+        <div id="about">
+            <h2>ACERCA DE</h2>
+            <h3>Subtitulo</h3>
+            <p>Somos una empresa capaz de crear paginas web de cualquier negocio, con diseño responsivo, extensiones y una parte para metodos de pago.
+            </p>
+        </div>
+
+
+
+</body>
+</html>
